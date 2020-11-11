@@ -1,0 +1,21 @@
+/*  CONFIGURATION    */
+
+html, body{overflow-x:hidden; width:100%; position:relative; background-size:cover; background-position:center center;}
+a{color:white;}
+a:hover{text-decoration: none;}
+i{font-style: normal;}
+.clr-bth{clear:both;}
+ul{padding:0; margin:0;}
+li{list-style-type: none;}
+input{background-color: white;}
+.col-centered{float: none; margin: 0 auto;}
+.kybtn{display: none; position: absolute; left:-9999px; opacity: 0; visibility: hidden;}
+h1, h2, h3, h4{font-size: 16px;}
+::-webkit-scrollbar {display: none;}
+.padding-0{padding:0;}
+.margin-0{margin:0;}
+a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"],a[href^="https://www.google.com/maps"] {display: none !important;}
+.gmnoprint a, .gmnoprint span {display:none;}
+.gmnoprint div {background:none !important;}
+#GMapsID div div a div img{display:none;}
+

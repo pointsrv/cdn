@@ -1,0 +1,21 @@
+.bk-lg {padding:6px;}
+    
+    .fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1.5!important;
+    width: 34.41px;
+    text-align: center;
+}
+
+.fixle {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    background: #fff;
+}

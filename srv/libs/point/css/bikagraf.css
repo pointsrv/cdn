@@ -1,0 +1,66 @@
+section.bikagraf {
+background: #eee;
+border-bottom: 0.19px solid #ddd;
+border-top: 0.19px solid #ddd;
+}
+
+.bikagraf .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.bikagraf hr {
+  margin: 1.5rem 0;
+}
+
+.bikagraf .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.bikagraf .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.bikagraf .card-price .period {
+  font-size: 30px;
+}
+
+.bikagraf ul li {
+  margin-bottom: 1rem;
+}
+
+.bikagraf .text-muted {
+  opacity: 0.7;
+}
+
+.bikagraf .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+.onayli {color: green;}
+.onaysiz {color: red;}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .bikagraf .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .bikagraf .card:hover .btn {
+    opacity: 1;
+  }
+}
